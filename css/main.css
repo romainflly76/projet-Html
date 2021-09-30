@@ -86,6 +86,61 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*********** HEADER **********/
+header {
+  background-color: red;
+  height: 33vh;       /* hauteur du header */
+  display: flex;
+  justify-content: center;  /* centrer la section*/
+  align-items: center;  
+  position: relative;  /*pour donner une position absolue a la div */
+}
+
+header>section {
+  background-color: green;
+  width: 40%;          /* largeur de la section*/
+  text-align: center;
+}
+
+header>div {
+  background-color: purple;
+  width: 15%;
+  position: absolute;
+  top: 10px;  /* position absolue de div position à top (en haut) à 10px du bord et position (right) à 10px du bord */
+  right: 10px;
+  text-align: center;
+}
+
+header>div>a {
+  margin: 0 1em;
+}
+/***   NAV ********/
+  nav {
+    background-color: yellow;
+  }
+
+.container {
+  background-color: brown;
+  width: 80%;
+  margin: 2em auto;  /*** marge auto à gauche et à droite et 2em pour le separé de la nav**/
+  height: 50vh; /***eviter de mettre une valeur de hauteur, surtout dans les containers (les pages du sites, sinon il peut y avoir colision avec le footer)**/
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container main {
+  background-color: pink;
+  width: 66%; /* la largeur du container ne doit pas depasser les 66% car il y'a un padding de 2% qui pousse le bloc marge gauche et droite**/
+  padding: 2%;
+  
+}
+
+.container aside {
+background-color: fuchsia;
+width: 30%;
+
+}
+
 
 /* ==========================================================================
    Helper classes
