@@ -238,6 +238,7 @@ main>section {
 font-family: 'Open Sans', sans-serif;
   color: #000000;
   font-size : 8px;
+  padding: 2%;
 }
 
 main>div {
@@ -248,10 +249,20 @@ main>div {
   font-family: 'Open Sans', sans-serif;
     color: #000000;
     font-size : 8px;
+    padding: 2%;
 }
 
 
-
+footer>section {
+  background-color: #f1f1f1;
+  width: 100%;          /* largeur de la section*/
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  font-size : 8px;
+  padding: 2%;
+}
 
 /* ==========================================================================
    Helper classes
