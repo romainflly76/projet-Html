@@ -106,12 +106,7 @@ font-family: 'Open Sans', sans-serif;
   font-size : 10px;
   
 }
-.utilisateur {
-  width: 1em;
-  height: 1em; /* ici tu aplique la taille voulue */
-  
- 
-}
+
 .panier {
   width: 1em;
   height: 1em; /* ici tu aplique la taille voulue */
@@ -126,20 +121,6 @@ font-family: 'Open Sans', sans-serif;
   margin-top: 5px;/*ici ton margin pour le centrer*/
   margin-left: 60px;/* tout comme celui -ci */
 }
-/*.button {
-  width: 1px;
-  height: 0.5px;
-  background-color: #000000;
-  border: none;
-  color: #f1f1f1;
-  padding: 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 5px;
-  margin: 2px 1px;
-  border-radius: 0.5rem;
-}*/
 
 
 header>div {  /** 3 liens bandeau*/
@@ -159,37 +140,40 @@ header>div>a {
     background-color: #284b63;
   }
 
-.pages {
-  width: auto;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-.pages > div {
+.nav > div {
   background-color: #f1f1f1;
   display: inline-block;
-  width: 5%;
-  height: auto;
-  margin-left: 10px;
-  text-align: center;
-  padding: 20px;
-  text-decoration: none;
-  cursor: pointer;
-  color: white;
-  border-radius: 50%;
+  
 }
 .pages > div:hover {
   background-color: #2978A0;
 }
 
-/* .container {
-  background-color: brown; 
-  width: 80%;
-  margin: 2em auto; 
-  height: 50vh; 
+.button {
+  background-color: #f1f1f1;
+  border-radius: 20%;
+  color: #284b63;
+  padding: 10px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+}
+
+nav>aside {
+  background-color: f1f1f1;
+  width: auto;
+  height: auto;
+  align-content: space-between;
+  top: 10px;  /* position absolue de div position à top (en haut) à 10px du bord et position (right) à 10px du bord */
+  left: 10px;
+  text-align: center;
+  color: #284b63;
   display: flex;
-  flex-wrap: wrap;
-} */
+  justify-content: right;  /* centrer la section*/
+  
+}
 
 .camera {
   width: 10vh;
