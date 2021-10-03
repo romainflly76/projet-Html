@@ -88,8 +88,8 @@ textarea {
    ========================================================================== */
 /*********** HEADER **********/
 header {
-  background-color: red;
-  height: 33vh;       /* hauteur du header */
+  background-color: #f1f1f1;
+  height: 20vh;       /* hauteur du header */
   display: flex;
   justify-content: center;  /* centrer la section*/
   align-items: center;  
@@ -97,17 +97,57 @@ header {
 }
 
 header>section {
-  background-color: green;
+  background-color: #f1f1f1;
   width: 40%;          /* largeur de la section*/
   text-align: center;
+  font-family: 'Abril Fatface', cursive;
+font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  font-size : 10px;
+  
 }
+.utilisateur {
+  width: 1em;
+  height: 1em; /* ici tu aplique la taille voulue */
+  
+ 
+}
+.panier {
+  width: 1em;
+  height: 1em; /* ici tu aplique la taille voulue */
+ 
+  
+}
+.imghead{
+ 
+  width: 15vh;
+  height: 15vh; /* ici tu aplique la taille voulue */
+  font-size: .5em; /* tu change la taille de ton atl */
+  margin-top: 5px;/*ici ton margin pour le centrer*/
+  margin-left: 60px;/* tout comme celui -ci */
+}
+/*.button {
+  width: 1px;
+  height: 0.5px;
+  background-color: #000000;
+  border: none;
+  color: #f1f1f1;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 5px;
+  margin: 2px 1px;
+  border-radius: 0.5rem;
+}*/
 
-header>div {
-  background-color: purple;
-  width: 15%;
+
+header>div {  /** 3 liens bandeau*/
+  background-color: f1f1f1;
+  width: 5%;
   position: absolute;
   top: 10px;  /* position absolue de div position à top (en haut) à 10px du bord et position (right) à 10px du bord */
-  right: 10px;
+  left: 10px;
   text-align: center;
 }
 
@@ -116,7 +156,7 @@ header>div>a {
 }
 /***   NAV ********/
   nav {
-    background-color: yellow;
+    background-color: #284b63;
   }
 
 .container {
