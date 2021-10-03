@@ -154,32 +154,103 @@ header>div {  /** 3 liens bandeau*/
 header>div>a {
   margin: 0 1em;
 }
-/***   NAV ********/
+/********************   NAV ********/
   nav {
     background-color: #284b63;
   }
 
-.container {
-  background-color: brown;
-  width: 80%;
-  margin: 2em auto;  /*** marge auto à gauche et à droite et 2em pour le separé de la nav**/
-  height: 50vh; /***eviter de mettre une valeur de hauteur, surtout dans les containers (les pages du sites, sinon il peut y avoir colision avec le footer)**/
-  display: flex;
-  flex-wrap: wrap;
+.pages {
+  width: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pages > div {
+  background-color: #f1f1f1;
+  display: inline-block;
+  width: 5%;
+  height: auto;
+  margin-left: 10px;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 50%;
+}
+.pages > div:hover {
+  background-color: #2978A0;
 }
 
+/* .container {
+  background-color: brown; 
+  width: 80%;
+  margin: 2em auto; 
+  height: 50vh; 
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+.camera {
+  width: 10vh;
+  height: 10vh; /* ici tu aplique la taille voulue */
+  text-align:center;
+  margin: auto;
+  display:flex;
+  font-size: .5em; /* tu change la taille de ton atl */
+  margin-top: 5px;/*ici ton margin pour le centrer*/
+  margin-left: 60px;/* tout comme celui -ci */
+}
+
+.telephone {
+  width: 10vh;
+  height: 13vh; /* ici tu aplique la taille voulue */
+  text-align:center;
+  margin: auto;
+  display:flex;
+  font-size: .5em; /* tu change la taille de ton atl */
+  margin-top: 5px;/*ici ton margin pour le centrer*/
+  margin-left: 60px;/* tout comme celui -ci */
+}
+
+.son {
+  width: 13vh;
+  height: 10vh; 
+  text-align:center;
+  margin: auto;
+  display:flex;
+  font-size: .5em; /* tu change la taille de ton atl */
+  margin-top: 5px;/*ici ton margin pour le centrer*/
+  margin-left: 60px;/* tout comme celui -ci */
+  
+}
 .container main {
   background-color: pink;
   width: 66%; /* la largeur du container ne doit pas depasser les 66% car il y'a un padding de 2% qui pousse le bloc marge gauche et droite**/
   padding: 2%;
   
 }
-
-.container aside {
-background-color: fuchsia;
-width: 30%;
-
+main>section {
+  background-color: #f1f1f1;
+  width: 100%;          /* largeur de la section*/
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  font-size : 8px;
 }
+
+main>div {
+    background-color: #f1f1f1;
+    width: 100%;          /* largeur de la section*/
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+  font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    font-size : 8px;
+}
+
+
 
 
 /* ==========================================================================
